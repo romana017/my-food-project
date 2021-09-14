@@ -1,4 +1,6 @@
-
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
 .container{
   margin:40px 100px;
   border:3px solid gray;
@@ -9,47 +11,108 @@
       border: 2px 100px;
       height: auto;
       width: 1300px;
-     } 
-
+     }
     .heading-style{
-            background-color: chocolate; 
-            border: 1px solid black; 
-            text-align: right;     
+            text-align: right;          
     } 
     .heading-style a{
       text-decoration: none;
       cursor: pointer;
        background-color:orange;
        color: white;
-       margin: 5px;
        padding: 15px;
        border-radius: 5px;
-       font-size: 15px;
+       font-size: 25px;
        font-weight: 40px; 
+       border: 1px solid black;
     }
     .head-star{
            width: 100%;
-           height: 600px;
-           margin: 25px;
-           padding: 25px;   
+           height: 500px;
+           margin-left: 15px;   
       }
       .item1{
             font-size: 45px; 
-            color: grey;   
+            color: grey;
+            font-weight: bold;     
       } 
       .item2{
         font-size: 45px; 
         font-weight: 15px;
-        color: grey;     
+        color: grey;
+        font-weight: bold;    
+      }
+      .item3{
+        font-size: 45px; 
+        font-weight: 15px;
+        color: grey;
+        font-weight: bold;  
       }
       .other{
          color: orange;
       }
-
       .box{
-        width: 500px;
-        height: 500px;
+        width: 490px;
+        height: 550px;
         text-align: center;
         background-color: cyan;
-
+      }
+      .para{
+        font-size: 25px;
+         font-weight: bold;
+      }
+      .click-btn{
+        }
+        .click-btn a{
+          text-decoration: none;
+          background-image: linear-gradient(orange,red);
+          height: 40px;
+          width: 80px;
+          padding: 20px 60px;
+          border-radius: 14px;
+           font-weight: 300px;
+           color: white;
+           font-size: 20px;
+        }     
+        .my-pic{
+          display: flex; 
+          background-image: url(images/top-banner.png); 
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin: 10px 30px;
+     }
+      img{
+        height: 600px;
+        width: 500px;
+         margin-left: 300px;
+      }     
+      .left-side{
+           height: 500px;
+           width: 1000px;
+      }
+      /*--------heading ses-----*/
+      .body-head{
+        height: 600px;
+        width: 1300px;
+        display: flex;
+        background-color: violet;
+        margin: 10px;
+      }
+      .my-pick{
+          height: 600px;
+          width: 500px;
+          float: left;
+          position: relative;
+          right: 300px;
+          background-color: turquoise;
+          
+      }
+      .middle{
+        font-family:sans-serif;
+        height: 400px;
+        width: auto;
+        float: right;
+        left: 1300px;
+        background-color: yellow;
+        padding: 100px;
       }
