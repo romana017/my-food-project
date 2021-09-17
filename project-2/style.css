@@ -4,16 +4,20 @@
 .container{
   margin:40px 100px;
   border:3px solid gray;
-}
-
+   }
     .all-round{
       font-family: 'Poppins', sans-serif;
-      border: 2px 100px;
       height: auto;
-      width: 1300px;
+      margin: 15px;
+     }
+     .middle{
+         margin-left: 100px;
+         margin-top: 100px;
      }
     .heading-style{
-            text-align: right;          
+       text-align: right; 
+       
+
     } 
     .heading-style a{
       text-decoration: none;
@@ -25,6 +29,11 @@
        font-size: 25px;
        font-weight: 40px; 
        border: 1px solid black;
+    }
+    .para-head{
+      font-size: 40px;
+      font-weight: bolder;
+      color: gray;
     }
     .head-star{
            width: 100%;
@@ -51,23 +60,16 @@
       .other{
          color: orange;
       }
-      .box{
-        width: 490px;
-        height: 550px;
-        text-align: center;
-        background-color: cyan;
-      }
       .para{
-        font-size: 25px;
-         font-weight: bold;
+        font-size: 20px;
+         font-weight: 60px;
+         color: gray;
       }
-      .click-btn{
-        }
         .click-btn a{
           text-decoration: none;
           background-image: linear-gradient(orange,red);
           height: 40px;
-          width: 80px;
+          width: 10px;
           padding: 20px 60px;
           border-radius: 14px;
            font-weight: 300px;
@@ -79,12 +81,12 @@
           background-image: url(images/top-banner.png); 
           background-repeat: no-repeat;
           background-size: cover;
-          margin: 10px 30px;
+          margin: 10px 30px; 
      }
-      img{
+      .sabiha{
         height: 600px;
         width: 500px;
-         margin-left: 300px;
+        margin-left: 300px;
       }     
       .left-side{
            height: 500px;
@@ -93,26 +95,176 @@
       /*--------heading ses-----*/
       .body-head{
         height: 600px;
-        width: 1300px;
+        width: 100%;
         display: flex;
-        background-color: violet;
         margin: 10px;
+        background-image: url(images/pic-bg33.png);
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       .my-pick{
           height: 600px;
           width: 500px;
           float: left;
           position: relative;
-          right: 300px;
-          background-color: turquoise;
-          
+          right: 300px;    
       }
-      .middle{
-        font-family:sans-serif;
-        height: 400px;
-        width: auto;
-        float: right;
-        left: 1300px;
-        background-color: yellow;
-        padding: 100px;
+      .click-mi{
+        text-decoration: none;
+        background-image: linear-gradient(orange,red);
+        height: 40px;
+        width: 30px;
+        padding: 20px 60px;
+        border-radius: 14px;
+         font-weight: 300px;
+         color: white;
+         font-size: 20px;
       }
+    /*------
+    middle ses----*/
+  
+    .part-middle{
+      font-family:sans-serif;
+      height: 400px;
+      width: auto;
+      padding: 70px;
+      background-image: url(images/top-banner.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hading-2{
+            text-align: center;
+            color: gray;
+            font-size: 35px;
+            font-weight: 30px;
+    } 
+    .para-2{
+           text-align: center;
+           color: gray;
+    }
+    .devies{ 
+      display: flex;  
+    }
+    .pic-1{
+      border: 1px solid black;
+      padding: 30px;
+      border-radius: 10px; 
+      color: gray;
+    }
+    .pic-1 img{
+      height: 200px;
+      width: 300px;
+      border-radius: 10px;
+    }
+    .amni{
+      font-size: 15px;
+      font-weight: 25px;
+    }
+    .pic-2{
+      border: 1px solid black;
+      padding: 30px;
+      border-radius: 10px;
+      margin-left: 20px;
+      color: gray;
+    }
+    .pic-2 img{
+      height: 200px;
+      width: 300px;
+      border: 1px solid black; 
+      border-radius: 10px;
+    }
+    .pic-3{
+      border: 1px solid black;
+      padding: 30px;
+      border-radius: 10px;
+      margin-left: 20px;
+      color: gray;
+    }
+    .pic-3 img{
+      height: 200px;
+      width: 300px;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    /*-------
+    part ses---*/
+    .rate{
+      display: flex;
+      width:85%;
+      height: 200px;
+      border: 1px solid gray;
+      border-radius: 6px;
+      box-shadow: 0px 1px 2px 2px gray;
+      margin: 80px;
+      padding: 20px;
+      margin-top: 200px;  
+    }
+    .div-1{
+      margin-left: 200px;
+      margin-top: 80px;
+    }
+    .div-1 h1{
+            font-size: 35px;
+            font-weight: bold;
+            margin: 0px;
+    }
+    .div-1 p{
+      color: gray;
+      margin: opx;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .div-2{
+      margin-left: 200px;
+      margin-top: 80px;
+    }
+    .div-2 h1{
+            font-size: 35px;
+            font-weight: bold;
+            margin: 0px;
+    }
+    .div-2 p{
+      color: gray;
+      margin: opx;
+      font-size: 15px;
+      font-weight: bold;
+    }.div-3{
+      margin-left: 200px;
+      margin-top: 80px;
+    }
+    .div-3 h1{
+            font-size: 35px;
+            font-weight: bold;
+           margin: 0px;
+    }
+    .div-3 p{
+      color: gray;
+      margin: opx;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    /*----
+    footer soro---*/
+
+    .footeer-airticle{
+      text-align: center; 
+      padding-bottom: 30px;
+    }
+
+        .footer-top{
+          padding-top: 30px;
+            background-color: black;
+            
+            color: gray;
+            
+         }
+         .name{
+          color: orange;
+        }
+         .name2{
+          color: gray;
+          font-size: 15px;
+          font-weight: bold;
+           }
+
+   
